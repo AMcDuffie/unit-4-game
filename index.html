@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Acme|Domine|Permanent+Marker" rel="stylesheet">
+    
+  <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <title>Crystal Game</title>
+</head>
+
+<body>
+
+<div id="titlebox">
+    <h1>Crystal Collector!</h1>
+</div>
+
+<div id="instructions">
+    <p>You will be given a random number at the start of the game.</p>
+    <p>There are four crystal below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+    <p>You win the game by matching your total to the random number, you lose if your total score goes above the random number.</p>
+    <p>The value of the crsystal is hidden from you until you click on it.</p>
+    <p>Each time when the game starts, the game will change the value of each crystal.</p>
+</div>
+
+<div id="tarwinlos">
+    <table style="width: 60%;">
+        <tr>
+            <td style="width: 30%;"><div id="target">Target Number: <span id="targetNum"></span></div></td>
+            <td style="width: 10%;"></td>
+            <td style="width: 20%;">
+                <div id="winloss">
+                    Wins: <span id="wins-text"></span><br />
+                    Losses: <span id="losses-text"></span>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+<div id="crystals">
+    <table>
+        <tr>
+            <td><div id="crystalone"><img src="assets/images/crystal1.png" style="width: 100px; height: 100px;" /></div>
+            <td><div id="crystaltwo"><img src="assets/images/crystal2.png" style="width: 100px; height: 100px;" /></div></td>
+            <td><div id="crystalthree"><img src="assets/images/crystal3.png" style="width: 100px; height: 100px;" /></div></td>
+            <td><div id="crystalfour"><img src="assets/images/crystal4.png" style="width: 100px; height: 100px;" /></div></td>
+        </tr>
+    </table>
+</div>
+    
+<div id="youscore">Your Total Score: <span id="playerNum"></span></div>
+
+<div id="buttons"><button id="reset">Reset</button></div>
+
+
+</body>
+
+<script src="assets/javascript/jemgame.js"></script>
+
+</html>

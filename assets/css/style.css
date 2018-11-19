@@ -1,0 +1,110 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url("../images/mindseye.jpg"); */
+}
+
+p {
+    font-size: 13pt;
+    font-family: 'Domine', serif;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 75pt;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 25pt;
+    font-weight: bold;
+    color: #a30a52;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+#titlebox {
+    margin: 15px;
+    padding: 15px;
+    width: 50%;
+    background-color: #ee3e81;
+    color: #ffffff;
+}
+
+#instructions {
+    margin: 15px 15px 0px 15px;
+    padding: 15px;
+    width: 50%;
+    background-color: #a30a52;
+    color: #ffffff;
+}
+
+#targetNum {
+    font-family:  'Acme', sans-serif;
+    font-size: 16pt;
+    color: #ffffff; 
+}
+
+#target {
+    font-size: 16pt;
+    color: #ffffff;
+    margin: 15px;
+    padding: 15px;
+    width: 100%;
+    background-color: #d376a1;
+}
+
+#winloss {
+    font-size: 16pt;
+    color: #ffffff;
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    background-color: #88556d;
+}
+
+#tarwinlos {
+    margin: 0px 15px 0px 15px;
+    padding: 0 auto;
+    width: 50%;
+    color: #ffffff;
+}
+
+#wins-text {
+    font-size: 16pt;
+    font-family:  'Acme', sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+
+#losses-text {
+    font-size: 16pt;
+    font-family: 'Acme', sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+
+#crystals {
+    margin: 5px;
+    padding: 15px;
+    width: 50%;
+    text-align: center;
+}
+
+#youscore {
+    font-size: 16pt;
+    color: #ffffff;
+    margin: 15px;
+    padding: 15px;
+    width: 25%;
+    background-color: #df84df;
+}
+
+#reset {
+    margin: 0px 15px 0px 15px;
+    width: 10%;
+    height: 20%;
+    font-size: 18pt;
+}
