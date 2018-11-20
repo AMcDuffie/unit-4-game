@@ -100,7 +100,7 @@
         }
         playerScore += crystalValue[2];
 
-        $("#playerNum").html(playerScore);;
+        $("#playerNum").html(playerScore);
         
         if (playerScore > target) {
             // alert("You Lost!");
